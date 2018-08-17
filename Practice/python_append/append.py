@@ -1,11 +1,5 @@
-import skimage.io
-import skimage.feature
-import skimage.color
-import skimage.transform
-import skimage.util
-import skimage.segmentation
+
 import numpy
-import scipy.misc
 
 im_mask = numpy.zeros((2,2,1))
 count = 0
@@ -33,6 +27,11 @@ _tuple = (1, 2, 3)
 print('_tuple = ', _tuple)
 print('_tuple[:2] = ', _tuple[:2])
 print('_tuple[:1] = ', _tuple[:1])
+'''
+_tuple =  (1, 2, 3)
+_tuple[:2] =  (1, 2)
+_tuple[:1] =  (1,)
+'''
 
 #[Quiz] !!!!!!!!!!!!!!! How to merge im_orig with im_mask to shape (2, 2, 4) ??? !!!!!!!!!!!!!!!!!!
 print('')
